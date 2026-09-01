@@ -1,6 +1,6 @@
-AI Code Detanglar!
+## AI Code Detanglar!
 
-A simple Generative AI app that explains programming code in beginner-friendly language —
+A simple Generative AI app that detangles the code logic and presents it in a simplified manner
 built with **Python**, **Streamlit**, and the **Gemini API**.
 
 Paste in a code snippet and get:
