@@ -131,7 +131,6 @@ def build_user_message(code: str, language: str) -> str:
 
 st.set_page_config(
     page_title="AI Code Detangler",
-    page_icon="💻",
     layout="centered"
 )
 
@@ -151,11 +150,11 @@ st.markdown("""
 ============================================================ */
 
 .stApp {
-    background-color: #e0c5c4 !important;
+    background-color: #000000 !important;
 }
 
 [data-testid="stAppViewContainer"] {
-    background-color: #e0c5c4 !important;
+    background-color: #000000 !important;
 }
 
 
@@ -195,7 +194,7 @@ st.markdown("""
     font-family: 'Playfair Display', serif !important;
     font-size: 70px !important;
     font-weight: 700 !important;
-    color: #470020 !important;
+    color: #FFF0F1 !important;
     text-align: center !important;
     line-height: 1.1 !important;
     margin: 0 !important;
@@ -404,20 +403,20 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     explain_clicked = st.button(
-        "🔍 Explain Code",
+        "Explain Code",
         use_container_width=True,
         type="primary"
     )
 
 with col2:
     improve_clicked = st.button(
-        "✨ Improve Code",
+        "Improve Code",
         use_container_width=True
     )
 
 with col3:
     optimize_clicked = st.button(
-        "⚡ Optimize Code",
+        "Optimize Code",
         use_container_width=True
     )
 
