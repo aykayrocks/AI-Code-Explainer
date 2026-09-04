@@ -1,5 +1,7 @@
 ## AI Code Detanglar!
 
+Streamlit deployed app link : https://ai-code-detangler.streamlit.app/
+
 A simple Generative AI app that detangles the code logic and presents it in a simplified manner
 built with **Python**, **Streamlit**, and the **Gemini API**.
 
